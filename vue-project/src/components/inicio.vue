@@ -11,9 +11,10 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Laboratorio ISCLAB 
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      Laboratorio de sistemas y aplicaciones web
+      <br />
+      <br />
+      <img src="http://isclab.com.mx/img/svg/email.svg" alt="email" class="w-6 h-6" width="30" height="20" />Email: contacto@isclab.com.mx
     </h3>
   </div>
 </template>
@@ -26,7 +27,7 @@ h1 {
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .greetings h1,
@@ -37,7 +38,7 @@ h3 {
 @media (min-width: 1024px) {
   .greetings h1,
   .greetings h3 {
-    text-align: left;
+    text-align: center;
   }
 }
 </style>
